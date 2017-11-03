@@ -1,0 +1,14 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "My web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarec Turner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
