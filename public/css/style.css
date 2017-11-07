@@ -134,16 +134,16 @@ btn:visited {
   opacity: 0;
 }
 
+footer {
+  margin-top: 25px;
+}
+
 /* Key frames */
 @keyframes moveInLeft {
   0% {
     opacity: 0;
     transform: translateX(-100px);
   }
-
-   80% {
-    transform: translateY(-50px);
-  } 
 
   100% {
     opacity: 1;
@@ -155,10 +155,6 @@ btn:visited {
   0% {
     opacity: 0;
     transform: translateY(-100px);
-  }
-
-  80% {
-    transform: translateX(-60px);
   }
 
   100% {
