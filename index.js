@@ -5,13 +5,13 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-// if(process.env.NODE_ENV === 'production') {
-//   app.get('/*', (req, res) => {
-//     res.send('<h1>Sight under construction</h1>')
-//   })
-// }
-app.use(express.static(path.join(__dirname, 'dist')))
+app.set('view engine', 'ejs')
+
 app.use(express.static(path.join(__dirname, 'src')))
+
+app.get('/*', (req, res) => {
+  res.render('index.ejs')
+})
 
 app.listen(port, (req, res) => {
   console.log('Server Started')
