@@ -99,14 +99,14 @@
         </div>
       <div id="contact" class="container">
         <h2>Contact Me</h2>
-        <form>
+        <form action="https://formspree.io/jarecturner@gmail.com" method="POST">
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter email">
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Please input message below.</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
           </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
