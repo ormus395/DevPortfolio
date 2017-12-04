@@ -12,9 +12,9 @@ $(document).ready(function() {
 
     if((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
         // The element is visible, do something
-        progress(60, $('#jsBar'))
-        progress(60, $('#htmlBar'))
-        progress(60, $('#cssBar'))
+        progress(70, $('#jsBar'))
+        progress(80, $('#htmlBar'))
+        progress(75, $('#cssBar'))
     }
   });
 

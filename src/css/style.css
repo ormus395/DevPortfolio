@@ -43,6 +43,32 @@
     color: white;
 }
 
+.display-3 {
+  margin-top: 50px;
+  animation-name: SLIDE;
+  animation-duration: 1s;
+}
+
+#header-btn {
+  margin-top: 50px;
+}
+
+@keyframes SLIDE {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px)
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateX(10px)
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
 #social .card {
   float: left;
 }
@@ -70,6 +96,8 @@
   30% { transform: translateY(0px); }
   50% { transform: translateY(-5px); }
 }
+
+
 /* projects */
 .card {
   border-radius: 0px;
