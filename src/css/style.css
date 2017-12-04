@@ -1,4 +1,9 @@
 /* Global */
+
+body {
+  background-color: #fff;
+}
+
 .btn {
   padding: 15px;
   background-color: yellow;
@@ -69,10 +74,6 @@
   }
 }
 
-#social .card {
-  float: left;
-}
-
 .arrow {
   position: absolute;
   bottom: 0;
@@ -97,6 +98,13 @@
   50% { transform: translateY(-5px); }
 }
 
+/* social */
+
+#social {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 /* projects */
 .card {
@@ -110,10 +118,6 @@
 
 .card:hover {
   transform: translateY(-5px);
-}
-
-.card h3 {
-  float: left;
 }
 
 .card img {
